@@ -17,16 +17,20 @@ public class MathTutor {
     System.out.println("Choose an option: Pythagorean theorem (enter 1), area of a circle (enter 2), or slope of a line between two points (enter 3)."+ "\n");
     int userInput = input.nextInt();
   if ( userInput ==1) {
-Problem1 problem = new Problem1 () ;
+PythagoreanTheorem problem = new PythagoreanTheorem () ;
  problem . solver () ;
  }
  if ( userInput ==2) {
- Problem2 problem = new Problem2 () ;
+ AreaOfCircle problem = new AreaofCircle () ;
  problem . solver () ;
  }
  if ( userInput ==3) {
- Problem3 problem = new Problem3 () ;
+ SlopeOfLine problem = new SlopeOfLine () ;
  problem . solver () ;
  }  
+
+PythagoreanTheorem myPythagoreanTheorem = new PythagoreanTheorem();
+double pythagoreanResult = myPythagoreanTheorem.solvePythagoreanTheorem();
+System.out.println("The hypotenuse is " + pythagoreanResult);
 }
 }
