@@ -32,5 +32,13 @@ PythagoreanTheorem problem = new PythagoreanTheorem () ;
 PythagoreanTheorem myPythagoreanTheorem = new PythagoreanTheorem();
 double pythagoreanResult = myPythagoreanTheorem.solvePythagoreanTheorem();
 System.out.println("The hypotenuse is " + pythagoreanResult);
+
+AreaOfCircle myAreaofCircle = new AreaofCircle();
+double areaOfCircleResult = myAreaOfCircle.solveAreaOfCircle();
+System.out.println("The area is " + areaOfCircleResult);
+
+SlopeOfLine mySlopeOfLine = new SlopeOfLine();
+double slopeOfLineResult = mySlopeOfLine.solveSlopeOfLine();
+System.out.println("The slope is " + slopeOfLineResult);
 }
 }
