@@ -1,7 +1,7 @@
 /*
-* Title of Class
-* Author's Name
-* Purpose
+* Title of Class: PythagoreanTheorem
+* Author's Name: Charlotte Collard
+* Purpose: To take two user-inputted side lengths and output the hypotenuse of a right triangle.
 *
 * Resources:
 *
@@ -11,23 +11,25 @@ import java.util.Scanner;
 public class PythagoreanTheorem {
     private double a;
     private double b;
-    // add other private members if necessary
+    private double t;
 
     public PythagoreanTheorem() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please input a your first side length: ");
+        System.out.println("Please input your first side length: " );
         a = input.nextDouble();
-        System.out.println("Please input a your second side length: ");
+        System.out.println("Please input your second side length: ");
         b = input.nextDouble();
         input.close();
-        // add your code here
+        
     }
 
     public double solvePythagoreanTheorem(){
-        double aSquare = Math.pow(a,2);
-        double bSquare = Math.pow(b,2);
+        t = 2.0;
+        double aSquare = Math.pow(a,t);
+        double bSquare = Math.pow(b,t);
         double cSquare = Math.sqrt(aSquare + bSquare);
-        return Math.sqrt(cSquare);
-        // add your code here
+        return cSquare;
+       
+      
     }
 }
