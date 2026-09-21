@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 * Title of Class: AreaOfCircle
 * Author's Name: Charlotte Collard
@@ -6,6 +7,8 @@
 * Resources:
 *
 */
+=======
+>>>>>>> 0872f3bf6db0753c0f2916e913a313cc7e825e59
 import java.util.Scanner;
 
 public class AreaOfCircle {

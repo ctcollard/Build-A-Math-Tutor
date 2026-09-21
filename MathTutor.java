@@ -24,6 +24,7 @@ public class MathTutor {
 PythagoreanTheorem myPythagoreanTheorem = new PythagoreanTheorem();
 double pythagoreanResult = myPythagoreanTheorem.solvePythagoreanTheorem();
 System.out.println("The hypotenuse is " + pythagoreanResult);
+<<<<<<< HEAD
  }
  if ( userInput ==2) {
 AreaOfCircle myAreaOfCircle = new AreaOfCircle();
@@ -36,5 +37,15 @@ double slopeOfLineResult = mySlopeOfLine.solveSlopeOfLine();
 System.out.println("The slope is " + slopeOfLineResult);
  }  
 
+=======
+
+AreaOfCircle myAreaofCircle = new AreaofCircle();
+double areaOfCircleResult = myAreaOfCircle.solveAreaOfCircle();
+System.out.println("The area is " + areaOfCircleResult);
+
+SlopeOfLine mySlopeOfLine = new SlopeOfLine();
+double slopeOfLineResult = mySlopeOfLine.solveSlopeOfLine();
+System.out.println("The slope is " + slopeOfLineResult);
+>>>>>>> 0872f3bf6db0753c0f2916e913a313cc7e825e59
 }
 }
