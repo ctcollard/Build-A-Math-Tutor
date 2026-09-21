@@ -3,14 +3,14 @@ import java.io.IOException;
 
 /*
  * Title of Project: Build A Math Tutor
- * Author ’s Name: Charlotte Collard
+ * Author’s Name: Charlotte Collard
  * Purpose: To write methods to solve simple math problems with user input.
  *
  * Resources :
  *
  */
 
-import java.util.Scanner ;
+import java.util.Scanner;
 public class MathTutor {
     public static void main ( String [] args ) throws IOException
 {
@@ -24,7 +24,7 @@ public class MathTutor {
 PythagoreanTheorem myPythagoreanTheorem = new PythagoreanTheorem();
 double pythagoreanResult = myPythagoreanTheorem.solvePythagoreanTheorem();
 System.out.println("The hypotenuse is " + pythagoreanResult);
-<<<<<<< HEAD
+
  }
  if ( userInput ==2) {
 AreaOfCircle myAreaOfCircle = new AreaOfCircle();
@@ -37,15 +37,4 @@ double slopeOfLineResult = mySlopeOfLine.solveSlopeOfLine();
 System.out.println("The slope is " + slopeOfLineResult);
  }  
 
-=======
-
-AreaOfCircle myAreaofCircle = new AreaofCircle();
-double areaOfCircleResult = myAreaOfCircle.solveAreaOfCircle();
-System.out.println("The area is " + areaOfCircleResult);
-
-SlopeOfLine mySlopeOfLine = new SlopeOfLine();
-double slopeOfLineResult = mySlopeOfLine.solveSlopeOfLine();
-System.out.println("The slope is " + slopeOfLineResult);
->>>>>>> 0872f3bf6db0753c0f2916e913a313cc7e825e59
-}
 }
