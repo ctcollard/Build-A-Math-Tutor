@@ -38,3 +38,4 @@ System.out.println("The slope is " + slopeOfLineResult);
 
 }
 }
+
